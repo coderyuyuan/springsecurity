@@ -13,6 +13,7 @@ public class FinalShellUtil {
 
     static {
         Security.addProvider(new BouncyCastleProvider());
+        System.out.println("111111");
     }
 
     public static String md5(String msg) throws NoSuchAlgorithmException {
